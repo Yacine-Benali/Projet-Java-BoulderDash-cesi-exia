@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="exia.BoulderDash.Game" x="66" y="74">
+        <Communication destinationClassName="exia.BoulderDash.controllers.JavaDataBase"/>
+    </CommunicationClass>
+    <CommunicationClass
+        name="exia.BoulderDash.controllers.BoulderAndDiamondController"
+        x="383" y="391"/>
+    <CommunicationClass
+        name="exia.BoulderDash.controllers.NavigationBetweenViewController"
+        x="270" y="286">
+        <Association
+            destinationClassName="exia.BoulderDash.controllers.GameController"
+            endpointName="gameController" kind="Simple"/>
+    </CommunicationClass>
+    <CommunicationClass
+        name="exia.BoulderDash.controllers.GameKeyController" x="564" y="99">
+        <Association
+            destinationClassName="exia.BoulderDash.controllers.RockfordUpdateController"
+            endpointName="updatePosRockford" kind="Simple"/>
+        <Communication destinationClassName="exia.BoulderDash.controllers.RockfordUpdateController"/>
+    </CommunicationClass>
+    <CommunicationClass name="exia.BoulderDash.controllers.JavaDataBase"
+        x="54" y="227"/>
+    <CommunicationClass
+        name="exia.BoulderDash.controllers.GameController" x="218" y="213">
+        <Association
+            destinationClassName="exia.BoulderDash.controllers.NavigationBetweenViewController"
+            endpointName="navigationBetweenViewController" kind="Simple"/>
+        <Communication destinationClassName="exia.BoulderDash.controllers.NavigationBetweenViewController"/>
+    </CommunicationClass>
+    <CommunicationClass
+        name="exia.BoulderDash.controllers.RockfordUpdateController"
+        x="608" y="327"/>
+</ClassDiagram>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="exia.BoulderDash" x="13" y="32">
+        <DependencyLink destination="exia.BoulderDash.controllers">
+            <Point x="228" y="96"/>
+        </DependencyLink>
+    </Package>
+    <Package name="exia.BoulderDash.controllers" x="43" y="193">
+        <DependencyLink destination="exia.BoulderDash.views">
+            <Point x="15" y="306"/>
+            <Point x="7" y="398"/>
+        </DependencyLink>
+        <DependencyLink destination="exia.BoulderDash.models">
+            <Point x="342" y="233"/>
+            <Point x="339" y="328"/>
+            <Point x="248" y="381"/>
+        </DependencyLink>
+        <DependencyLink destination="exia.BoulderDash">
+            <Point x="26" y="137"/>
+        </DependencyLink>
+    </Package>
+    <Package name="exia.BoulderDash.exceptions" x="294" y="67"/>
+    <Package name="exia.BoulderDash.helpers" x="663" y="97">
+        <DependencyLink destination="exia.BoulderDash.exceptions"/>
+        <DependencyLink destination="exia.BoulderDash.models">
+            <Point x="921" y="333"/>
+            <Point x="738" y="373"/>
+        </DependencyLink>
+    </Package>
+    <Package name="exia.BoulderDash.models" x="350" y="398">
+        <DependencyLink destination="exia.BoulderDash.helpers">
+            <Point x="504" y="203"/>
+        </DependencyLink>
+    </Package>
+    <Package name="exia.BoulderDash.views" x="30" y="368">
+        <DependencyLink destination="exia.BoulderDash.controllers">
+            <Point x="77" y="312"/>
+        </DependencyLink>
+        <DependencyLink destination="exia.BoulderDash.models">
+            <Point x="90" y="486"/>
+        </DependencyLink>
+    </Package>
+</PackageAnalysis>
