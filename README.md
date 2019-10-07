@@ -5,7 +5,7 @@ Le principal objectif de ce projet a été de crée un jeux BoulderDash avec le 
 
 Welcom Screen           |  Game starts at chosen level         |  Win case           |  Lose case      
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:  
-![alt text](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/1.PNG)|![alt text](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/2.PNG)|![alt text](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/3.PNG)|![alt text](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/4.PNG) 
+![Image](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/1.PNG)|![Image](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/2.PNG)|![Image](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/3.PNG)|![Image](https://github.com/Yacine-Benali/Projet-Java-BoulderDash-cesi-exia/blob/master/ScreenShots/4.PNG) 
 
 
 
